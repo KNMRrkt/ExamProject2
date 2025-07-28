@@ -2,7 +2,7 @@ package creature.character;
 
 public class SuperHero extends Hero{
     public SuperHero(Hero hero){
-        super(hero.getName(), hero.getHp(), hero.getWeapon());
+        super(hero.getName(), hero.getHp()-30, hero.getWeapon());
     }
 
     public void attack(Creature target) {
